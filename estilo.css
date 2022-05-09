@@ -41,7 +41,7 @@ body{
 }
 a { color: purple;
     text-decoration: none;
-   
+     margin: 15px;
     border-radius: 5px;
  } 
  a:hover{
