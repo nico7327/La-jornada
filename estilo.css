@@ -1,6 +1,7 @@
+
 body{
-    background-color: black;
-    color: pink;
+    background-color: rgb(255, 255, 255);
+    color: #3E2557;
     background-size: 5%;
 }
 .cabezera{grid-area: cabezera;}
@@ -45,13 +46,13 @@ a { color: purple;
  } 
  a:hover{
      background-color: purple;
-     color:  black;
+     color:  #BFA1DD;
      }
  a:active{
     background-color: blue;
   }
   .principal{
-    background-color: rgb(29, 0, 29);
+    background-color: #BFA1DD;
     border-radius: 30px;
     margin: 10px;
     box-shadow: 8px 8px 10px  rgb(69, 0, 126) ;
@@ -61,7 +62,7 @@ a { color: purple;
     
   }
   .lateral{
-    background-color: rgb(29, 0, 29);
+    background-color: #BFA1DD;
     border-radius: 30px;
     margin: 10px;
     box-shadow: 8px 8px 10px  rgb(69, 0, 126) ;
