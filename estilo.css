@@ -1,0 +1,99 @@
+body{
+    background-color: white;
+    color: #3E2557;
+    background-size: 5%;
+}
+.cabezera{grid-area: cabezera;}
+.navegacion{grid-area: navegacion;}
+.principal{grid-area: principal;}
+.lateral{grid-area: lateral;}
+.maquetado{
+    padding: 10px;
+    width: auto;
+    display: grid;
+    grid-template: 
+      'cabezera cabezera '
+      'navegacion navegacion  '
+      'lateral principal   '
+      
+    ; 
+    grid-gap: 10px;
+    grid-template-columns:  350px auto;
+}
+.cabezera{
+    color: purple;
+    font-size:  60px;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    text-align: center;
+    box-shadow: 8px 8px 10px  rgb(69, 0, 126) ;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    vertical-align:middle;
+    background-position: 200px;    
+}
+.navegacion{
+   
+    font-size: 40px;
+    text-align: center;
+    margin: 10px;
+    
+}
+a { color: purple;
+    text-decoration: none;
+    margin: 15px;
+    border-radius: 5px;
+ } 
+ a:hover{
+     background-color: purple;
+     color:  #BFA1DD;
+     }
+ a:active{
+    background-color: blue;
+  }
+  .principal{
+    background-color: #BFA1DD;
+    border-radius: 30px;
+    margin: 10px;
+    box-shadow: 8px 8px 10px  rgb(69, 0, 126) ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  .lateral{
+    background-color: #BFA1DD;
+    border-radius: 30px;
+    margin: 10px;
+    box-shadow: 8px 8px 10px  rgb(69, 0, 126) ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+  }
+.titulo{
+    font-size: 40px;
+}
+.parrafo{
+    text-align: center;
+    font-size: 20px;
+}
+@media(max-width: 900px)/*Media query*/
+{
+    .maquetado{
+        padding: 10px;
+        height: auto;
+        display: grid;
+        grid-template: 
+          ' cabezera'
+          ' navegacion'
+          'principal'
+          'lateral'
+          
+        ;
+        grid-gap: 10px;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto auto auto;
+    }
+
+    
+}
