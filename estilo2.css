@@ -67,4 +67,35 @@ a { color: purple;
         font-family: 'Oleo Script Swash Caps', cursive;
         font-size: 30px;
       }
+.principal{
+  font-family: 'Oleo Script Swash Caps', cursive;
+  font-size: 20px;
+}
+.lateral{
+  font-family: 'Oleo Script Swash Caps', cursive;
+  font-size: 20px;
+}
+.titulo{
+    font-size: 40px;
+}
+@media(max-width: 900px)/*Media query*/
+{
+    .maquetado{
+        padding: 10px;
+        height: auto;
+        display: grid;
+        grid-template: 
+          ' cabezera'
+          ' navegacion'
+          'principal'
+          'lateral'
+          
+        ;
+        grid-gap: 10px;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto auto auto;
+    }
+
+    
+}
     
