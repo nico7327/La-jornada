@@ -97,7 +97,7 @@ font-size: 20px;
   font-family: sans-serif;
 font-size: 20px;
 }
-@media (min-width: 500px)
+@media (min-width: 700px) and (orientation: portrait)
 {
   .maquetado{
       padding: 10px;
